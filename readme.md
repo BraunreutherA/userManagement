@@ -1,9 +1,3 @@
-##Master Branch
-[ ![Codeship Status for BraunreutherA/ibalopo.server](https://codeship.com/projects/9e25bac0-2110-0133-1087-367226476a0d/status?branch=master)](https://codeship.com/projects/95779)
-
-##Development Branch
-[ ![Codeship Status for BraunreutherA/ibalopo.server](https://codeship.com/projects/9e25bac0-2110-0133-1087-367226476a0d/status?branch=develop)](https://codeship.com/projects/95779)
-
 #User Management
 
 todos: 
