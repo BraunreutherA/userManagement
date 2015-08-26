@@ -1,0 +1,52 @@
+{
+  "name": "ibalopo_api",
+  "version": "0.0.1",
+  "description": "rest api of the ibalopo plattform",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BraunreutherA/ibalopo.server"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "gulp mocha",
+    "dev": "nodemon app.js"
+  },
+  "author": "Alexander Braunreuther <a.braunreuther@ibalopo.de>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "bluebird": "^2.9.34",
+    "body-parser": "^1.13.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.1",
+    "jsonwebtoken": "^5.0.5",
+    "lodash": "^3.10.0",
+    "mandrill-api": "^1.0.45",
+    "mongoose": "^4.0.7",
+    "multer": "^1.0.3",
+    "newrelic": "^1.21.2",
+    "shortid": "^2.2.2",
+    "underscore.string": "^3.1.1",
+    "valib": "^2.0.0",
+    "winston": "^1.0.1",
+    "yargs": "^3.15.0"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.1.0",
+    "gulp": "^3.9.0",
+    "gulp-istanbul": "^0.10.0",
+    "gulp-jshint": "^1.11.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-mocha": "^2.1.2",
+    "gulp-shell": "^0.4.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "jsdoc": "^3.3.2",
+    "jshint-stylish": "^2.0.1",
+    "nock": "^2.6.0",
+    "node-mocks-http": "^1.4.3",
+    "nodemon": "^1.4.1",
+    "sinon": "^1.15.4",
+    "supertest": "^1.0.1"
+  }
+}
