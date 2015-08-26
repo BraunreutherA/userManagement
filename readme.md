@@ -27,7 +27,7 @@ features:
  - registration (done - need to send the email with the token.)
  - login (done)
  - email verification (token gets verified. so done)
- - password reset 
+ - password reset (done - somehow used reset tokens need to get revoked. Maybe use a redis instance?)
  - email change ( needs again verifing )
  - user updates
  - role authorization 
