@@ -1,6 +1,11 @@
 #User Management
 
 todos & thoughts: 
+
+ - there are some strange errors in the require params middleware! fix it!!
+ 
+ - how to make used passwordreset tokens unuseable after first usage. Or is this necessary? Think so..
+
  - write readme
  - find a better name :D
  - adjust build tools -> need proper jshint jscs and testing that works correctly with promises.
@@ -19,9 +24,9 @@ todos & thoughts:
  - hierachical mvc structure
  
 features: 
- - registration
- - login 
- - email verification
+ - registration (done - need to send the email with the token.)
+ - login (done)
+ - email verification (token gets verified. so done)
  - password reset 
  - email change ( needs again verifing )
  - user updates
