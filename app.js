@@ -25,6 +25,9 @@ initializationHandler.initMiddleware(app)
         return initializationHandler.initDatabase();
     })
     .then(function (database) {
+        if(config.verbose) {
+            logger.debug(database);
+        }
         logger.info('Database initialized!');
         return initializationHandler.initErrorHandler(app);
     })
@@ -35,8 +38,7 @@ initializationHandler.initMiddleware(app)
         logger.info('##########################');
         logger.info('Application started');
         logger.info('It listens on port: ', config.port);
-        //todo: a verbose flag would be nice. Maybe implement it directly into th logger -> logger.verbose('test');
-        logger.info('This is the specified config: ', config);
+        logger.debug('This is the specified config: ', config);
         logger.info('##########################');
     })
     .catch(function (error) {
